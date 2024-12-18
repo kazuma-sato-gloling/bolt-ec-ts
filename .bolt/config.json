@@ -1,3 +1,21 @@
 {
-  "template": "nextjs-shadcn"
+  "name": "Specification Assistant",
+  "version": "1.0.0",
+  "description": "AI assistant for creating and managing software specifications",
+  "capabilities": [
+    "specification_writing",
+    "requirement_analysis",
+    "technical_documentation",
+    "review_assistance"
+  ],
+  "templates": {
+    "software_spec": "templates/software_spec.md",
+    "api_spec": "templates/api_spec.md",
+    "database_spec": "templates/database_spec.md"
+  },
+  "formatting": {
+    "preferred_markup": "markdown",
+    "code_highlighting": true,
+    "diagram_support": ["mermaid", "plantuml"]
+  }
 }

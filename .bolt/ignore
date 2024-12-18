@@ -1,2 +1,23 @@
-components/ui/*
-hooks/use-toast.ts
+# Generated files
+*.pdf
+*.docx
+*.tmp
+
+# Working directories
+.working/
+.temp/
+.cache/
+
+# Local configuration
+.local/
+.env
+.env.*
+
+# Version control
+.git/
+.gitignore
+
+# Build artifacts
+dist/
+build/
+out/
